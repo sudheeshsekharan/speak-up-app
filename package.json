@@ -1,0 +1,11 @@
+{
+  "name": "speak-up",
+  "version": "1.0.0",
+  "description": "Speak up, an app to share your thoughts to the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sudheesh S",
+  "license": "ISC"
+}
