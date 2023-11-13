@@ -7,6 +7,7 @@ var indexRouter = require('./routes/index');
 var otpRouter = require('./routes/otp');
 var captchaRouter = require('./routes/captcha');
 var successRouter = require('./routes/success');
+var nocaptchaotpRouter = require('./routes/nocaptchaotp');
 
 var app = express();
 
@@ -19,6 +20,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/otp', otpRouter);
 app.use('/captcha', captchaRouter);
+app.use('/nocaptchaotp', nocaptchaotpRouter);
 app.use('/success', successRouter);
 
 module.exports = app;
